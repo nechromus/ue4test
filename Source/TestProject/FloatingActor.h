@@ -23,6 +23,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	
-	
+private:
+
+	// tracked run time of the actor
+	float RunningTime;
+
+	// defines the scale of the hover movement
+	UPROPERTY(EditAnywhere)
+	float HoverMoveScale = 20.f;
 };
