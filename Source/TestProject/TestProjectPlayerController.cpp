@@ -97,6 +97,7 @@ void ATestProjectPlayerController::SetNewMoveDestination(const FVector DestLocat
 			NavSys->SimpleMoveToLocation(this, DestLocation);
 		}
 	}
+
 }
 
 void ATestProjectPlayerController::OnSetDestinationPressed()
