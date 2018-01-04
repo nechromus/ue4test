@@ -28,6 +28,8 @@ private:
 	// tracked run time of the actor
 	float RunningTime;
 
+public:
+
 	// defines the scale of the hover movement
 	UPROPERTY(EditAnywhere)
 	float HoverMoveScale = 20.f;
